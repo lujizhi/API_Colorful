@@ -9,7 +9,7 @@
 
 **加值宣言**
 
-由于鲜花品类众多，大多时候容易混淆，甚至观赏后都无法留下深刻的印象，回忆难度大，以及不同鲜花都代表不同的花语，在不同场景下献花/送花也要考虑花语这一因素，都会给送花者带来诸多困难。Colorful通过调用百度AI开放平台植物识别API，反馈识别结果为植物名称及Score值，调用百度AI开放平台通用物体和场景识别，反馈识别结果为keyword植物名称、score值、baike_url、description部分（花语、生长习性等），调用两种API帮助用户快速回忆鲜花品类，及快速了解鲜花生长习性、花语等信息，日常积累鲜花知识。使其快速记忆鲜花品类，以及在不同情境下正确地献花/送花。
+由于鲜花品类众多，大多时候容易混淆，甚至观赏后都无法留下深刻的印象，回忆难度大，以及不同鲜花都代表不同的花语，在不同场景下献花/送花也要考虑花语这一因素，都会给送花者带来诸多困难。Colorful通过调用**百度AI开放平台植物识别API**，反馈识别结果为植物名称及Score值，调用**百度AI开放平台通用物体和场景识别**，反馈识别结果为keyword植物名称、score值、baike_url、description部分（花语、生长习性等），调用两种API帮助用户快速回忆鲜花品类，及快速了解鲜花生长习性、花语等信息，日常积累鲜花知识。使其快速记忆鲜花品类，以及在不同情境下正确地献花/送花。
 
 ![API加值](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/API%E5%8A%A0%E5%80%BC.png)
 
@@ -27,11 +27,11 @@ API驱动之智能产品，为产品进行智能加值，以“以人为本”�
 
 **用户画像1**
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F1.png)
+![用户画像1](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F1.png)
 
 **用户画像2**
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F2.png)
+![用户画像2](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F2.png)
 
 经过对使用过相关花类APP用户研究及调查，发现大多数花类APP多以内容型为主，比如分享养花技巧、晒花、记录养花生活等，而对于花类和花语的普及较少，这一定程度上使人们容易进入花类知识盲区，从而出现以下**用户痛点（问题）**：
 
@@ -44,7 +44,7 @@ API驱动之智能产品，为产品进行智能加值，以“以人为本”�
 
 **用户旅程地图---使用阶段**
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E7%94%A8%E6%88%B7%E6%97%85%E7%A8%8B%E5%9C%B0%E5%9B%BE-%E4%BD%BF%E7%94%A8%E9%98%B6%E6%AE%B5.png)
+![用户旅程地图--使用阶段](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E7%94%A8%E6%88%B7%E6%97%85%E7%A8%8B%E5%9C%B0%E5%9B%BE-%E4%BD%BF%E7%94%A8%E9%98%B6%E6%AE%B5.png)
 
 ### 需求列表
 
@@ -76,22 +76,22 @@ API驱动之智能产品，为产品进行智能加值，以“以人为本”�
 
 **界面流程图**
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E7%95%8C%E9%9D%A2%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+![界面流程图](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E7%95%8C%E9%9D%A2%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 **智能加值主张一**：百度AI开放平台OCR图像技术的植物识别。调用植物识别API，点击‘鲜花识别’，即自动反馈相关识别结果。识别结果只反馈鲜花品类（大类），无其他详情信息，调用这一功能主要目的是帮助用户快速回忆，而不用跳转到其他平台搜索。
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%99%BA%E8%83%BD%E5%8A%A0%E5%80%BC%E4%B8%BB%E5%BC%A01.png)
+![加值主张一p1](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%99%BA%E8%83%BD%E5%8A%A0%E5%80%BC%E4%B8%BB%E5%BC%A01.png)
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%99%BA%E8%83%BD%E5%8A%A0%E5%80%BC%E4%B8%BB%E5%BC%A01.1.png)
+![加值主张一p2](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%99%BA%E8%83%BD%E5%8A%A0%E5%80%BC%E4%B8%BB%E5%BC%A01.1.png)
 
 
 **智能加值主张二**：百度AI开放平台OCR图像技术的通用物体和场景识别API。调用通用物体和场景识别API，通过保存图片，或在“拍照识别功能”中导入图片进行识别。识别结果不仅仅反馈鲜花品类（大类），还链入‘百度百科’介绍页面，description部分则是‘百度百科’页面的摘要，摘要信息大致有鲜花的生长习性、花语等。
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%99%BA%E8%83%BD%E5%8A%A0%E5%80%BC%E4%B8%BB%E5%BC%A02.png)
+![加值主张二p1](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%99%BA%E8%83%BD%E5%8A%A0%E5%80%BC%E4%B8%BB%E5%BC%A02.png)
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%99%BA%E8%83%BD%E5%8A%A0%E5%80%BC%E4%B8%BB%E5%BC%A02.1.png)
+![加值主张二p2](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%99%BA%E8%83%BD%E5%8A%A0%E5%80%BC%E4%B8%BB%E5%BC%A02.1.png)
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%99%BA%E8%83%BD%E5%8A%A0%E5%80%BC%E4%B8%BB%E5%BC%A02.2.png)
+![加值主张p3](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%99%BA%E8%83%BD%E5%8A%A0%E5%80%BC%E4%B8%BB%E5%BC%A02.2.png)
 
 
 以上两种智能加值主张中，从IDEO三要素（商业可行性、技术可行性、用户可欲性）的角度来论证其MVP加值。
@@ -118,7 +118,7 @@ API驱动之智能产品，为产品进行智能加值，以“以人为本”�
 
 数据流程大致分为三大部分，分别是帖子图片“鲜花识别”、帖子图片“保存图片并识别”和“拍照识别”。帖子图片“鲜花识别”的数据流程是通过点击图片，选中“鲜花识别”，识别过程中触发百度AI开放平台植物识别API（智能加值）的调用，进行缓冲识别，识别成功后，反馈鲜花品类（大类）数据（智能加值），该部分数据解决用户“鲜花品类容易混淆，回忆难度大”的痛点；帖子图片“保存图片并识别”的数据流程是通过点击图片，选中“保存图片并识别”，识别过程中触发百度AI开放平台通用物体和场景识别API（智能加值）的调用，进行缓冲识别，识别成功后，反馈鲜花品类、使用场景、花语、description描述、baike_url等数据，该部分数据解决用户“对鲜花习性、花语等信息缺乏了解”的痛点；“拍照识别”的数据流程是通过拍照上传照片或相册上传照片，上传成功后进行识别，识别过程中触发百度AI开放平台通用物体和场景识别API（智能加值）的调用，识别成功后，反馈鲜花品类、使用场景、花语、description描述、baike_url等数据。对以上数据，用户通过“收藏”行为，对反馈数据结果进行数据储存，在用户每天触发“签到”功能时，再次反馈给用户，解决“如何帮助记忆反馈结果”的痛点（数据再加值）。
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
+![数据流程图](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
 
 |数据来源|数据方案|
 |:--:|:--:|
@@ -138,9 +138,9 @@ API驱动之智能产品，为产品进行智能加值，以“以人为本”�
 **智能加值主张二**：百度AI开放平台OCR图像技术的通用物体和场景识别API。
 **数据再加值**：通过调用植物识别API及通用物体和场景识别API反馈的数据，用户的“收藏”行为对此部分的数据进行收集和储存，用户的“签到”行为触发“收藏”行为所储存的数据，再一次反馈给用户，用户进行再次记忆和数据印象的加深。
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%95%B0%E6%8D%AE%E5%86%8D%E5%8A%A0%E5%80%BC.png)
+![数据再加值p1](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%95%B0%E6%8D%AE%E5%86%8D%E5%8A%A0%E5%80%BC.png)
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E7%AD%BE%E5%88%B0%E8%AF%B4%E6%98%8E.png)
+![数据再加值p2](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E7%AD%BE%E5%88%B0%E8%AF%B4%E6%98%8E.png)
 
 
 **代码块**
@@ -173,7 +173,7 @@ if response:
 ```
 * 识别结果
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%A4%8D%E7%89%A9%E8%AF%86%E5%88%ABAPI%E7%BB%93%E6%9E%9C.png)
+![植物识别结果](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E6%A4%8D%E7%89%A9%E8%AF%86%E5%88%ABAPI%E7%BB%93%E6%9E%9C.png)
 
 
 * 数据反馈
@@ -214,7 +214,7 @@ if response:
 
 * 识别结果
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E9%80%9A%E7%94%A8%E5%9C%BA%E6%99%AF%E5%92%8C%E5%9C%BA%E6%99%AF%E8%AF%86%E5%88%ABAPI%E7%BB%93%E6%9E%9C.png)
+![通用物体和场景识别结果](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E9%80%9A%E7%94%A8%E5%9C%BA%E6%99%AF%E5%92%8C%E5%9C%BA%E6%99%AF%E8%AF%86%E5%88%ABAPI%E7%BB%93%E6%9E%9C.png)
 
 * 数据反馈
 
@@ -226,10 +226,12 @@ if response:
 
 **人工智能概率性考量**
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A6%82%E7%8E%87%E6%80%A7%E8%80%83%E9%87%8F-%E7%99%BE%E5%90%88.png)
+![人工智能概率性考量p1](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A6%82%E7%8E%87%E6%80%A7%E8%80%83%E9%87%8F-%E7%99%BE%E5%90%88.png)
 
-![](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A6%82%E7%8E%87%E6%80%A7%E8%80%83%E9%87%8F-%E7%99%BE%E5%90%88%E3%80%81%E7%8E%AB%E7%91%B0.png)
+![人工智能概率性考量p2](https://gitee.com/lujizhi/API_N/raw/master/API_final_img/img/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A6%82%E7%8E%87%E6%80%A7%E8%80%83%E9%87%8F-%E7%99%BE%E5%90%88%E3%80%81%E7%8E%AB%E7%91%B0.png)
 
-植物识别API：反馈score值、name数据，且score值有一定的参考价值，同时在对一张图篇有单一鲜花品类进行识别，或者一张图片有多类鲜花进行识别，都能较为精准的反馈对应数据（图一：百合，所识别结果都与百合有关；图二：玫瑰、百合花束，所识别结果都能一一反馈，且score值相对较高）
+* 概率性考量
 
-通用物体和场景识别API：能够反馈较全的数据（keyword、score、root、description、baike_url等），但只有识别结果为最高score值才能反馈，其余的只反馈score、root、keyword。
+**植物识别API**：反馈score值、name数据，且score值有一定的参考价值，同时在对一张图篇有单一鲜花品类进行识别，或者一张图片有多类鲜花进行识别，都能较为精准的反馈对应数据（图一：百合，所识别结果都与百合有关；图二：玫瑰、百合花束，所识别结果都能一一反馈，且score值相对较高）
+
+**通用物体和场景识别API**：能够反馈较全的数据（keyword、score、root、description、baike_url等），但只有识别结果为最高score值才能反馈，其余的只反馈score、root、keyword。
