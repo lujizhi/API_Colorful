@@ -237,3 +237,10 @@ if response:
 **植物识别API**：反馈score值、name数据，且score值有一定的参考价值，同时在对一张图篇有单一鲜花品类进行识别，或者一张图片有多类鲜花进行识别，都能较为精准的反馈对应数据（图一：百合，所识别结果都与百合有关；图二：玫瑰、百合花束，所识别结果都能一一反馈，且score值相对较高）
 
 **通用物体和场景识别API**：能够反馈较全的数据（keyword、score、root、description、baike_url等），但只有识别结果为最高score值才能反馈，其余的只反馈score、root、keyword。
+
+
+## 学习/实践心得总结及感谢
+
+本文档写作进一步对“API机器学习与人工智能”课程的深化实践，结合课上知识，并引入“产品经理”和“用户视觉设计”课程的知识进行相关问题的思考和产品原型的制作。特别感谢百度AI开放平台提供的<a href='https://ai.baidu.com/tech/imagerecognition/plant'>植物识别API</a>和<a href='https://ai.baidu.com/tech/imagerecognition/general'>通用物体和场景识别API</a>代码对产品的技术支持。调用两种API，解决用户“鲜花品类容易混淆，回忆难度大”的痛点、解决用户“对鲜花习性、花语等信息缺乏了解”的痛点、解决解决“如何帮助记忆反馈结果”的痛点。
+
+* <a href='https://modao.cc/app/593e19aae842af04f6e0da6b94739d9d0b281fe8?simulator_type=device&sticky#screen=skc903zi3jhqymp'>产品原型</a>
