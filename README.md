@@ -3,7 +3,7 @@
 |文件作者|卢继志|
 |产品名称|Colorful|
 |产品加值|鲜花识别-百度AI开放平台植物识别API+百度AI开放平台通用物体和场景识别API|
-|产品原型链接|xxx|
+|产品原型链接|<a href='https://modao.cc/app/593e19aae842af04f6e0da6b94739d9d0b281fe8?simulator_type=device&sticky'>Colorful</a>|
 
 # Colorful
 
